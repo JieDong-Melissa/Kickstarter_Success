@@ -3,12 +3,30 @@
 ![image](https://github.com/JieDong-Melissa/Kickstarter_Success/blob/main/images/kickstarter_image.jpeg)
 [Kickstarter](https://www.kickstarter.com/), a global crowdfunding platform launched on April 28, 2009, supports funding for creative projects across various categories such as films, games, music, art, design, and technology. Based in Brooklyn, New York, it operates on an all-or-nothing model, charging backers only if the funding goal is reached. Successful projects offer backers unique rewards.
 
-This project is making simple exploration and a look around to the
- crowdfunding data in Kickstarter.
   
 Then our goal will be to evaluate and explore multiple supervised machine learning models, to predict if a project funding will be successful or failed before it is launched. 
 
 I took the data from [Kaggle](https://www.kaggle.com/kemical/kickstarter-projects#ks-projects-201801.csv) website, it includes 378,661 Kickstarter projects.
+
+
+This dataset contains data on 20,632 Kickstarter campaigns on the site as of February 1st 2017(more to be updated in future versions). Important attributes are described below:
+
+Project: a finite work with a clear goal that you’d like to bring to life (aka campaign)
+Funding goal: amount of money that a creator needs to complete their project
+Name: name of project on Kickstarter
+Blurb: the short description displayed under the name of your project and on the browse page
+Pledged and backers: amount of money that a project has raised and people that have supported it at the point of the API pull
+State: successful, failed, cancelled, live or suspended
+Deadline, state changed, created at, launched at: deadline given for successful funding, state changed when campaign went to success or failure, time the project was created at, time the project was launched at
+Other attributes in this dataset: country, currency, category
+To attain a deeper understanding of our data and to have more attributes to explore, we also created the following features out of the data for our analysis:
+
+Name and blurb (description) length including and excluding “stop words” - name_len_clean, blurb_len_clean
+Day of week and hour of the day for creation, launch and deadline date - deadline_weekday, created_at_weekday, lauched_at_weekday, deadline_hour, created_at_hour, launched_at_hour
+Days between creation and launch, and days between launch and deadline - create_to_launch, launch_to_deadline
+
+
+
 
 each project has 15 features:
 
