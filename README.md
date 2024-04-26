@@ -4,23 +4,32 @@
 [Kickstarter](https://www.kickstarter.com/), a global crowdfunding platform launched on April 28, 2009, supports funding for creative projects across various categories such as films, games, music, art, design, and technology. Based in Brooklyn, New York, it operates on an all-or-nothing model, charging backers only if the funding goal is reached. Successful projects offer backers unique rewards.
 
 
-This dataset includes information on 20,632 Kickstarter campaigns up to February 1, 2017. It contains 59 features detailing various aspects of each campaign, such as campaign ID, project category, subcategory, goal amount, pledged amount, campaign state, launch date, end date, and other relevant metrics. These features provide insights into the performance and characteristics of Kickstarter campaigns, which can be useful for analyzing trends and identifying factors that contribute to campaign success
+This dataset includes information on 20,632 Kickstarter campaigns up to February 1, 2017. It contains 59 features detailing various aspects of each campaign, such as 
+• campaign ID, 
+• project category, 
+• funding goal: amount of money that a creator needs to complete their project,
+• blurb: the short description displayed under the name of your project and on the browse page,
+• pledged: amount of money that a project has raised,
+• backers: people that have supported it at the point of the API pull,
+• state: successful, failed, cancelled, live or suspended,
+• subcategory, 
+• goal amount, 
+• pledged amount, 
+• campaign state, 
+• launch date, 
+• end date, and other relevant metrics. 
 
+These features provide insights into the performance and characteristics of Kickstarter campaigns, which can be useful for analyzing trends and identifying factors that contribute to campaign success
 
-  
 Then our goal will be to evaluate and explore multiple supervised machine learning models, to predict if a project funding will be successful or failed before it is launched. 
 
 
-This dataset contains data on 20,632 Kickstarter campaigns on the site as of February 1st 2017. There are 59 features
 
 Important attributes are described below:
 
 Project: a finite work with a clear goal that you’d like to bring to life (aka campaign)
-Funding goal: amount of money that a creator needs to complete their project
-Name: name of project on Kickstarter
-Blurb: the short description displayed under the name of your project and on the browse page
-Pledged and backers: amount of money that a project has raised and people that have supported it at the point of the API pull
-State: successful, failed, cancelled, live or suspended
+
+
 Deadline, state changed, created at, launched at: deadline given for successful funding, state changed when campaign went to success or failure, time the project was created at, time the project was launched at
 Other attributes in this dataset: country, currency, category
 To attain a deeper understanding of our data and to have more attributes to explore, we also created the following features out of the data for our analysis:
@@ -28,27 +37,6 @@ To attain a deeper understanding of our data and to have more attributes to expl
 Name and blurb (description) length including and excluding “stop words” - name_len_clean, blurb_len_clean
 Day of week and hour of the day for creation, launch and deadline date - deadline_weekday, created_at_weekday, lauched_at_weekday, deadline_hour, created_at_hour, launched_at_hour
 Days between creation and launch, and days between launch and deadline - create_to_launch, launch_to_deadline
-
-
-
-
-each project has 15 features:
-
-1. **ID** : project ID.
-2. **name** : the name of the project.
-3. **main_category** : the main category the project.
-4. **category** : a subgroup of main_category.
-5. **currency** : the currency of the project.
-6. **deadline** : the deadline of the project.
-7. **goal** : goal amount in project currency.
-8. **launched** : the launch date for the project.
-9. **pledged** : pledged amount in the project currency.
-10. **state** : state is a categorical status of the project.
-11. **usd pledged** : pledged amount in USD (conversion made by KS).
-12. **usd_pledged_real** : pledged amount in USD (conversion made by fixer.io).
-13. **usd_goal_real** : amount of USD the project asked for initially.
-14. **backers** : the number of supporters that actually invested in the project.
-15. **country** : country of origin of the project.
 
 
 in this project, we can find out :
