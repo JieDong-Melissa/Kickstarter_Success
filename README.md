@@ -5,38 +5,29 @@
 
 
 This dataset includes information on 20,632 Kickstarter campaigns up to February 1, 2017. It contains 59 features detailing various aspects of each campaign, such as 
-• campaign ID, 
-• project category, 
-• funding goal: amount of money that a creator needs to complete their project,
-• blurb: the short description displayed under the name of your project and on the browse page,
-• pledged: amount of money that a project has raised,
-• backers: people that have supported it at the point of the API pull,
-• state: successful, failed, cancelled, live or suspended,
-• subcategory, 
-• goal amount, 
-• pledged amount, 
-• campaign state, 
-• launch date, 
-• end date, and other relevant metrics. 
+- campaign ID, 
+- project category, 
+- funding goal: amount of money that a creator needs to complete their project,
+- blurb: the short description displayed under the name of your project and on the browse page,
+- pledged: amount of money that a project has raised,
+- backers: people that have supported it at the point of the API pull,
+- state: successful, failed, cancelled, live or suspended,
+- subcategory, 
+- goal amount, 
+- pledged amount, 
+- campaign state, 
+- launch date, 
+- end date, and other relevant metrics. 
 
 These features provide insights into the performance and characteristics of Kickstarter campaigns, which can be useful for analyzing trends and identifying factors that contribute to campaign success
 
 Then our goal will be to evaluate and explore multiple supervised machine learning models, to predict if a project funding will be successful or failed before it is launched. 
 
-
-
 Important attributes are described below:
 
 Project: a finite work with a clear goal that you’d like to bring to life (aka campaign)
 
-
-Deadline, state changed, created at, launched at: deadline given for successful funding, state changed when campaign went to success or failure, time the project was created at, time the project was launched at
-Other attributes in this dataset: country, currency, category
 To attain a deeper understanding of our data and to have more attributes to explore, we also created the following features out of the data for our analysis:
-
-Name and blurb (description) length including and excluding “stop words” - name_len_clean, blurb_len_clean
-Day of week and hour of the day for creation, launch and deadline date - deadline_weekday, created_at_weekday, lauched_at_weekday, deadline_hour, created_at_hour, launched_at_hour
-Days between creation and launch, and days between launch and deadline - create_to_launch, launch_to_deadline
 
 
 in this project, we can find out :
