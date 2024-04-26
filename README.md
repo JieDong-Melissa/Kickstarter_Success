@@ -1,6 +1,6 @@
 
 # Predicting Kickstarter Crowdfunding Success: Data-Driven Investment Strategies 
-[images](https://github.com/JieDong-Melissa/Kickstarter_Success/blob/main/images/kickstarter_image.jpeg)
+![image](https://github.com/JieDong-Melissa/Kickstarter_Success/blob/main/images/kickstarter_image.jpeg)
 [Kickstarter](https://www.kickstarter.com/) Kickstarter, a global crowdfunding platform launched on April 28, 2009, supports funding for creative projects across various categories such as films, games, music, art, design, and technology. Based in Brooklyn, New York, it operates on an all-or-nothing model, charging backers only if the funding goal is reached. Successful projects offer backers unique rewards.
 
 This project is making simple exploration and a look around to the
