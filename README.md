@@ -4,7 +4,7 @@
 [Kickstarter](https://www.kickstarter.com/), a global crowdfunding platform launched on April 28, 2009, supports funding for creative projects across various categories such as films, games, music, art, design, and technology. Based in Brooklyn, New York, it operates on an all-or-nothing model, charging backers only if the funding goal is reached. Successful projects offer backers unique rewards.
 
 
-This dataset includes information on 20,632 Kickstarter campaigns up to February 1, 2017. It contains 59 features detailing various aspects of each campaign, such as 
+This dataset includes information on 20,632 Kickstarter campaigns up to February 1, 2017. It contains 68 features detailing various aspects of each campaign, such as 
 - campaign ID, 
 - project category, 
 - funding goal: amount of money that a creator needs to complete their project,
