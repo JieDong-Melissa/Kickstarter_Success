@@ -3,13 +3,17 @@
 ![image](https://github.com/JieDong-Melissa/Kickstarter_Success/blob/main/images/kickstarter_image.jpeg)
 [Kickstarter](https://www.kickstarter.com/), a global crowdfunding platform launched on April 28, 2009, supports funding for creative projects across various categories such as films, games, music, art, design, and technology. Based in Brooklyn, New York, it operates on an all-or-nothing model, charging backers only if the funding goal is reached. Successful projects offer backers unique rewards.
 
+
+This dataset includes information on 20,632 Kickstarter campaigns up to February 1, 2017. It contains 59 features detailing various aspects of each campaign, such as campaign ID, project category, subcategory, goal amount, pledged amount, campaign state, launch date, end date, and other relevant metrics. These features provide insights into the performance and characteristics of Kickstarter campaigns, which can be useful for analyzing trends and identifying factors that contribute to campaign success
+
+
   
 Then our goal will be to evaluate and explore multiple supervised machine learning models, to predict if a project funding will be successful or failed before it is launched. 
 
-I took the data from [Kaggle](https://www.kaggle.com/kemical/kickstarter-projects#ks-projects-201801.csv) website, it includes 378,661 Kickstarter projects.
 
+This dataset contains data on 20,632 Kickstarter campaigns on the site as of February 1st 2017. There are 59 features
 
-This dataset contains data on 20,632 Kickstarter campaigns on the site as of February 1st 2017(more to be updated in future versions). Important attributes are described below:
+Important attributes are described below:
 
 Project: a finite work with a clear goal that you’d like to bring to life (aka campaign)
 Funding goal: amount of money that a creator needs to complete their project
