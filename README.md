@@ -48,29 +48,5 @@ i will use the must-have python packages for Data Science and Finance:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
- - Docker
  
- ### Installing
  
- 1. Copy the project to your machine
- 
-     ```
-     git clone https://github.com/ayoubabozer/kickstarter.git
-     ```
- 
- 2. Get into the Dir
-    
-    ```
-    cd kickstarter
-     ``` 
- 
- 3. Pull & Run Docker Image
- 
-     ```
-     docker run -d --rm --name jupyter -p 8888:8888 -v $PWD:/opt playniuniu/jupyter-pandas
-     ```
- 4. Open the app in : [http://localhost:8888](http://localhost:8888)
-
-
-# ENJOY!.
